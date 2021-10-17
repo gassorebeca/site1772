@@ -1,0 +1,32 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+
+    --yellow: #e5ea21;
+    --grey: #848588;
+    --dark-blue: #000235;
+    --opacity: rgba(0, 0, 0, 0.71);
+    --backgrond-grey: #e9ecef;
+    --white: white;
+}
+
+.title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.new-section {
+    margin-top: 60px;
+}
+
+.gridRow {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.gridColumn {
+    display: grid;
+    grid-auto-flow: column;
+}
