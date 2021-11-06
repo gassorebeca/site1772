@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="new-section about">
+  <div id="about" class="about">
     <div class="container">
       <div class="paddingItens">
         <h3 class="title">Our Mission</h3>
@@ -40,14 +40,18 @@ export default {
 
 <style scoped>
 h2 {
-	color: var(--yellow);
+	color: var(--dark-blue);
 	font-family: 'Bebas Neue', cursive;
 	font-size: 30px;
 	margin-bottom: 15px;
 }
+h2:hover {
+	color: var(--yellow);
+}
 
 .about {
   height: 100vh;
+	background: var(--backgrond-grey);
 }
 
 .paddingItens {
